@@ -1,0 +1,81 @@
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;0,9..40,900;1,9..40,500&display=swap');
+
+html,
+body {
+    font-size: 16px;
+}
+
+h1 {
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 900;
+}
+
+h4 {
+    font-size: 13px;
+    color: red;
+
+    >i {
+        margin-right: 10px;
+    }
+}
+
+p {
+    color: black;
+}
+
+.about-company {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.image-small {
+    height: 100px;
+    display: inline;
+    margin-right: -5px;
+    vertical-align: middle; /* Add this line */
+}
+
+.image-medium {
+    height: 200px;
+    width: auto;
+    display: block;
+}
+
+.image-medium1 {
+    height: 200px;
+    width: auto;
+    display: inline-block;
+}
+
+.image {
+    height: auto;
+    width: auto;
+}
+
+body {
+    background-color: white;
+}
+
+
+/* New way of writing css */
+footer {
+    background-color: #494844;
+    color: rgb(181, 178, 178);
+    /* padding-left: 550px; */
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 12pt;
+
+    >strong {
+        color: white;
+        font-size: 1em;
+    }
+
+
+}
