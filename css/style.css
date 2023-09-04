@@ -1,19 +1,22 @@
 /* Google font import */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;0,9..40,900;1,9..40,500&display=swap');
 
+/* Used when using rems */
 html,
 body {
-    font-size: 16px;
+    font-size: 62.5%;
 }
 
 h1 {
+    font-size: 3.2rem;
     color: black;
     font-family: 'DM Sans', sans-serif;
     font-weight: 900;
+    text-shadow: 5px 5px 5px rgba(16, 16, 16, 0.5);
 }
 
 h4 {
-    font-size: 13px;
+    font-size: 1.6rem;
     color: red;
 
     >i {
@@ -23,20 +26,83 @@ h4 {
 
 p {
     color: black;
+    font-size: 1.6rem;
 }
 
+.links{
+        display: flex;
+        justify-content: space-between;
+        justify-content: space-around;
+}
 .about-company {
+    margin-top: 5.0rem;
+    margin-bottom: 5.0rem;
+    margin-left: 10rem;
+    margin-right: 2.0rem;
+    padding-top: 2.0rem;
+    padding-left: 2.0rem;
+    padding-right: 2.0rem;
+    padding-bottom: 5.0rem;
+    display: block;
+    border-collapse: collapse;
+    height: 615px;
+    width: 533px;
+    overflow: hidden;
+    border-right: 6px solid rgb(68, 66, 66);
+        /* Adding a border to the right */
+    border-bottom: 6px solid rgb(68, 66, 66);
+        /* Adding a border to the left */
+    border-top: 6px inset rgba(68, 66, 66,0.1);
+        /* Adding a border to the top */
+    border-left: 6px inset rgba(68, 66, 66,0.1);
+        /* Adding a border to the left */
+    border-radius: 10px;
+        /* Add rounded borders to an element */
+     
+        > .button-position {
+                display: grid;
+                grid-template-columns: 3fr 3fr;
+                gap:347px;
+                font-size: 1.6rem;
+                margin-top: 15rem;
+        }
+
+         
+    }
+
+
+.image-multiple {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    
+}
+
+.image-text {
+    display: flex;
+    padding: 0;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 1320px;
+    height: 615px;
 }
 
 .image-small {
-    height: 100px;
+    height: 615px;
+    max-width: 533px;
     display: inline;
     margin-right: -5px;
-    vertical-align: middle; /* Add this line */
+    vertical-align: middle;
+    /* Add this line */
+}
+
+span{
+    text-transform: capitalize;
 }
 
 .image-medium {
@@ -57,7 +123,9 @@ p {
 }
 
 body {
-    background-color: white;
+    overflow: scroll;
+    background-color: rgba(240, 208, 130, 0.93);
+
 }
 
 
@@ -67,15 +135,16 @@ footer {
     color: rgb(181, 178, 178);
     /* padding-left: 550px; */
     padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
-    font-size: 12pt;
-
-    >strong {
+    font-size: 1.6rem;
+    margin-bottom: -50px;
+    border: 5px outset black;
+    > strong {
         color: white;
         font-size: 1em;
     }
 
-
 }
+
